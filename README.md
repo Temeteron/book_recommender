@@ -15,7 +15,7 @@ File structure of the input
 	Last line contains the name of the user
 
 
-Algorithm "recAlg.c"
+Algorithm "recAlgOptimal.c"
 
 Makefile commands
 

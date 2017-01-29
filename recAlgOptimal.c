@@ -14,17 +14,17 @@
 #include "libraries.h"
 	/* Structs */
 
-/* struct to opoio periexei tis plirofories gia ton xristi */
+/* struct info of user */
 typedef struct user {
-	char name[SIZE_NAME];			/*	   onoma xristi	             */
-	char username[SIZE_USERNAME];		/*	  username xristi	     */
-	int *grades;				/* bathmologies xristi gia ta books  */
+	char name[SIZE_NAME];			/*	   name of user      */
+	char username[SIZE_USERNAME];	/*	  	username 	     */
+	int *grades;
 } userT;
 
-/* struct to opoio periexei tis plirofories ton vivlion */
+/* struct info of book */
 typedef struct book {
-	char title[SIZE_BOOK];			/*	   titlos bibliou	   */
-	char author[SIZE_BOOK];		        /*	 suggrafeas bibliou	   */
+	char title[SIZE_BOOK];
+	char author[SIZE_BOOK];
 }bookT;
 
 
@@ -42,30 +42,30 @@ void findSimilarity (userT *buyer, userT *users, bookT *book, int num_users, int
  *  main  *
  **********/
 int main (int argc, char *argv[]) {
-	int num_books,num_users;   /*                          arithmos biblion kai xriston                                         */
-	int i;                     /*                                metritis brogxou                                               */
-	bookT *books;              /*                 dunamikos pinakas pou periexei ta info ton biblion                            */
-	userT *users,*buyer;       /* dunamikos pinakas pou periexei ta info ton xriston k tou agorasti kathos kai tis bathmologies */
+	int num_books,num_users;   /*                          number of books and users 											*/
+	int i;                     /*                                counter of loop                                                */
+	bookT *books;              /*                 		  array with info of num_books 											*/
+	userT *users,*buyer;       /* 					array with info of user and buyer with the values							*/
 
 	scanf("%d", &num_books);
 
 	books = getBook (num_books);
-	if (books == NULL) return 1; /* elegxos gia aneparkia mnimis kata tin dinamiki desmeusi mnimis */
+	if (books == NULL) return 1; /* check memory lick */
 
 	scanf("%d", &num_users);
 
 	users = getUserGrade (num_users, num_books);
-	if (users == NULL) return 1; /* elegxos gia aneparkia mnimis kata tin dinamiki desmeusi mnimis */
+	if (users == NULL) return 1; /* check memory lick */
 
 	buyer = findBuyer(users, num_users);
-	if (buyer == NULL) return 1; /* elegxos gia aneparkia mnimis kata tin dinamiki desmeusi mnimis */
+	if (buyer == NULL) return 1; /* check memory lick */
 
 	buyer = getBuyerGrades(buyer, num_books);
-	if (buyer == NULL) return 1; /* elegxos gia aneparkia mnimis kata tin dinamiki desmeusi mnimis */
+	if (buyer == NULL) return 1; /* check memory lick */
 
 	findSimilarity (buyer, users, books, num_users, num_books);
 
-	/* apodesmeusi dunamika desmeumenis mnimis */
+	/* free memory */
 	free(books); 
 	for (i = 0; i < num_users; i++) {
 		free(users[i].grades); 

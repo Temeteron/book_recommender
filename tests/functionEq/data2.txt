@@ -1,0 +1,21 @@
+7
+The_Hitchhiker's_Guide_To_The_Galaxy,Douglas_Adams
+Watership_Down,Richard_Adams
+The_Five_People_You_Meet_in_Heaven,Mitch_Albom
+Speak,Laurie_Halse_Anderson
+I_Know_Why_the_Caged_Bird_Sings,Maya_Angelou
+Thirteen_Reasons_Why,Jay_Asher
+Foundation_Series,Isaac_Asimov
+Bob 
+0 -1 -1 -1 0 0 -1
+Anne
+0 -1 -1 -1 0 1 -1
+John
+0  3 3 3 0 0 3  
+Alice
+0 1 1 1 0 0 1
+Mary
+0 -3 -3 -3 0 -1 -3
+EndOfNames
+Bob
+

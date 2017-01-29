@@ -1,0 +1,23 @@
+Hi, what's your name? Hello Sanity!
+Cust8 100
+We recommend:
+Bone_Series,Jeff_Smith
+Eragon,Christopher_Paolini
+Hatchet,Gary_Paulsen
+Holes,Louis_Sachar
+Inkheart,Cornelia_Funke
+My_Sister's_Keeper,Jodi_Picoult
+Speak,Laurie_Halse_Anderson
+The_Bourne_Series,Robert_Ludlum
+The_Chrysalids,John_Wyndham
+The_Da_Vinci_Code,Dan_Brown
+The_Golden_Compass,Philip_Pullman
+The_Hitchhiker's_Guide_To_The_Galaxy,Douglas_Adams
+The_Hobbit,J_R_R_Tolkien
+The_Lord_of_the_Rings,J_R_R_Tolkien
+The_Princess_Bride,William_Goldman
+The_Princess_Diaries,Meg_Cabot
+The_Sisterhood_of_the_Travelling_Pants,Ann_Brashares
+The_War_Of_The_Worlds,H_G_Wells
+To_Kill_a_Mockingbird,Harper_Lee
+Twilight_Series,Stephenie_Meyer

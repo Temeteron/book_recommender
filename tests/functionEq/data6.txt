@@ -1,0 +1,18 @@
+5
+The_Hitchhiker's_Guide_To_The_Galaxy,Douglas_Adams
+Watership_Down,Richard_Adams
+The_Five_People_You_Meet_in_Heaven,Mitch_Albom
+Speak,Laurie_Halse_Anderson
+I_Know_Why_the_Caged_Bird_Sings,Maya_Angelou
+Bob 
+1 1 1 0 1  
+Mary
+0 0 0 0 0  
+John
+3 3 3 0 0  
+Anne
+0 -1 -1 -1 -1
+EndOfNames
+Alice
+Bill
+Mary

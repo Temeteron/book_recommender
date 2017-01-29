@@ -1,0 +1,6 @@
+Hi, what's your name? 
+Hello Bob!
+Enter a username: 
+Username exists. Enter a different username: 
+Mary 12
+We recommend: Thirteen_Reasons_Why by Jay_Asher

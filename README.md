@@ -6,6 +6,8 @@ File structure of the input
 
 	Next lines: Books: "title", "author" // Each book in one line
 
+	Next line: Number of users
+
 	After books: "user" \n evalution for each book, a number from [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
 
 	End of user: "EndOfNames"

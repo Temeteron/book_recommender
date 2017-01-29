@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-#define BOOKS 60
-#define NUM_OF_CHARS_OF_INFO 120
-#define NUM_OF_CUST 100
-#define NUM_OF_CHARS_OF_USERNAMES 20
-#define VALID 0
+#include <stdlib.h>
+
+#define SIZE_NAME          30           /*                 max size of name         			*/
+#define SIZE_USERNAME      20           /*               max size of username         			*/
+#define SIZE_BOOK         100           /*       max size of title book and author's name 		*/
+#define STRING           "%%%ds"        /*                use of formatstring                   */

@@ -20,7 +20,7 @@ Algorithm "recAlgOptimal.c"
 Makefile commands
 
 	make: compiles code
-	clear: deletes files
+	make clean: deletes files
 	make run: executes prog without args
 
 Run with args, executable file is "recAlg", input file words.txt, save the output in myout1.txt
